@@ -1,21 +1,3 @@
-function edadFcn() {
-    resultado = "";
-    edad = document.getElementById("edad").value;
-
-    edad = parseFloat(edad);
-
-    if(edad < 18) {
-        resultado = "Eres menor de edad";   
-               
-    } else if(edad >= 18) {
-        resultado = "Eres mayor de edad";
-        
-    }  
-
-    document.getElementById("respuesta").value = resultado;  
-    
-}
-
 function imcFcn() {
    peso =  document.getElementById("peso").value;
    altura = document.getElementById("altura").value;
